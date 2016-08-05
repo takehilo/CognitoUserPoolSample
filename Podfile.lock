@@ -1,0 +1,27 @@
+PODS:
+  - AWSCognito (2.4.5):
+    - AWSCore (= 2.4.5)
+  - AWSCognitoIdentityProvider (2.4.5):
+    - AWSCore (= 2.4.5)
+  - AWSCore (2.4.5)
+  - AWSLambda (2.4.5):
+    - AWSCore (= 2.4.5)
+  - SwiftyJSON (2.3.2)
+
+DEPENDENCIES:
+  - AWSCognito
+  - AWSCognitoIdentityProvider
+  - AWSCore
+  - AWSLambda
+  - SwiftyJSON
+
+SPEC CHECKSUMS:
+  AWSCognito: 96e1762404831ffb87f67c87a5ee68fde543bb69
+  AWSCognitoIdentityProvider: 3085d7d30b2bead2dc97efe286e02bda1a6a8325
+  AWSCore: 2f356385bcea9b81ea47f9be0228c71697d9597d
+  AWSLambda: 295ed268e30556aa55b13b01495a1d47593af178
+  SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
+
+PODFILE CHECKSUM: 813f9eb19ffb90dd323c38051214d080b4ed559f
+
+COCOAPODS: 1.0.1
