@@ -16,7 +16,7 @@ class AwsClientManager {
 
     func initialize(appDelegate: AppDelegate) {
         // ここでap-northeast-1を指定しても、AWSCognitoIdentityUserPoolインスタンスに設定されるidentityProviderNameがus-east-1リージョンになってしまう
-        var configuration = AWSServiceConfiguration(region: .USEast1, credentialsProvider: nil)
+        var configuration = AWSServiceConfiguration(region: .APNortheast1, credentialsProvider: nil)
         let userPoolConfiguration = AWSCognitoIdentityUserPoolConfiguration(
             clientId: Constants.COGNITO_IDENTITY_USER_POOL_APP_CLIENT_ID,
             clientSecret: Constants.COGNITO_IDENTITY_USER_POOL_APP_CLIENT_SECRET,
